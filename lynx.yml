@@ -1,7 +1,8 @@
 ---
 - hosts: all
-  remote_user: root
+  remote_user: ec2-user
 
   tasks:
   - name: ensure lynx is at the latest version
     yum: name=lynx state=latest
+    become: true
