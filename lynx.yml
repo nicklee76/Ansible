@@ -6,5 +6,5 @@
   - name: ensure lynx is at the latest version
     yum: name=lynx state=latest
     become: true
-    ansible_become_method=su 
-    ansible_become_exe="sudo su -"
+    become_method: su 
+    become_exe: sudo su -
