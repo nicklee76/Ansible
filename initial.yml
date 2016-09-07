@@ -1,4 +1,0 @@
----
-- hosts: all
-  - name: Change root password
-  user: name=root password=rlagustn!
