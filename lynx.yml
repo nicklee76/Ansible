@@ -7,4 +7,3 @@
     yum: name=lynx state=latest
     become: true
     become_user: root
-    become_methond: sudo
